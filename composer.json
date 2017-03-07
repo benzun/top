@@ -1,0 +1,19 @@
+{
+    "name": "zunyue/top",
+    "description": "top",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "魏鑫华",
+            "email": "395133701@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+            "ZunYue\\": "src/"
+        }
+    }
+}
