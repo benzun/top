@@ -10,7 +10,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "pimple/pimple": "^3.0",
+        "monolog/monolog": "^1.22",
+        "doctrine/cache": "^1.6",
+        "guzzlehttp/guzzle": "^6.2"
+    },
     "autoload": {
     	"psr-4": {
             "ZunYue\\": "src/"
